@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'I Droid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #2FA866;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.233);
+}
+
+.midia {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'I Droid';
+    color: #2FA866;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, #2fa8658b, #3ddc8500);
+    padding: 5px;
+}
+
+#video {
+    background-color: #063D1E;
+    padding: 20px;
+    margin: -20px;
+    margin-top: 10px;
+}
+
+h3 {
+    background-color: #2FA866;
+    color: white;
+    margin: -10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav {
+    background-color: #C5EBD6;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+}
+
+ul {
+    list-style-type: disc;
+    columns: 2;
+    list-style-position: inside;
+    margin-left: -38px;
+}
+
+span {
+    color: #2FA866;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+}
+
+a {
+    color: #2FA866;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a::after {
+    content: '🔗';
+}
